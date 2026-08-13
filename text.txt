@@ -1,0 +1,14 @@
+Cách 1 - Dùng trong terminal
+python aps_apu_cleaner.py --input raw_logs/ --output cleaned_data/
+Cách 2 — Dùng trong notebook / script Python (nếu muốn phân tích tiếp ngay)
+python
+# đặt aps_apu_cleaner.py cùng thư mục với notebook/script này
+from aps_apu_cleaner import process_file, batch_process
+
+# Xử lý 1 file, lấy thẳng dict các DataFrame để phân tích, không cần lưu ra đĩa
+tables = process_file("raw_logs/APS-000258_20251001_000000.csv",
+                       "cleaned_data",
+                       save_per_table=False)
+
+df = tables["APU Stat 10s"]   # lấy bảng cần dùng
+print(df.head())
