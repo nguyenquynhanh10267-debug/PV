@@ -1,5 +1,6 @@
 Cách 1 - Dùng trong terminal
 python aps_apu_cleaner.py --input raw_logs/ --output cleaned_data/
+python aps_apu_cleaner.py --input "raw_logs\inv 24.5-20260814T074838Z-1-001\inv 24.5\log" --output cleaned_data
 Cách 2 — Dùng trong notebook / script Python (nếu muốn phân tích tiếp ngay)
 python
 # đặt aps_apu_cleaner.py cùng thư mục với notebook/script này
