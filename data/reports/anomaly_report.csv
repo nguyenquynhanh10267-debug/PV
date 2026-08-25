@@ -1,0 +1,2 @@
+log_type,timestamp,anomaly_type,column_affected,raw_value,action_taken
+aps_stat_60s,2025-10-04 08:41:00,SENSOR_FAULT_PT100_OPEN_CIRCUIT,tamb_c / ttrans_c,-20.0,flagged_is_sensor_fault_true__preserved_raw

@@ -1,0 +1,14 @@
+log_type,raw_filename,initial_rows,final_rows,removed_exact_duplicates,unparseable_numeric_cells,min_timestamp,max_timestamp,is_monotonic_increasing
+aps_ctrl_trig,aps_ctrl_trig.csv,3075,3075,0,0,2025-10-01 00:00:00,2025-10-27 07:16:00,True
+aps_energy,aps_energy.csv,37496,37471,25,0,2025-10-01 00:00:00,2025-10-27 09:09:00,True
+aps_stat_60s,aps_stat_60s.csv,37469,37469,0,0,2025-10-01 00:00:00,2025-10-27 09:09:00,True
+aps_stat_trig,aps_stat_trig.csv,2734,2734,0,0,2025-10-01 00:00:00,2025-10-27 08:52:00,True
+aps_switching_cycles,aps_switching_cycles.csv,275,275,0,0,2025-10-01 00:00:00,2025-10-27 05:32:00,True
+apu_ctrl_trig,apu_ctrl_trig.csv,297126,275287,21839,0,2025-10-01 00:00:00,2025-10-27 09:04:00,True
+apu_energy,apu_energy.csv,149984,149910,74,0,2025-10-01 00:00:00,2025-10-27 09:09:00,True
+apu_stat_10s,apu_stat_10s.csv,963845,963659,186,0,2025-10-01 00:00:00,2025-10-27 09:09:50,True
+apu_stat_60s,apu_stat_60s.csv,149868,149868,0,0,2025-10-01 00:00:00,2025-10-27 09:09:00,True
+apu_stat_trig,apu_stat_trig.csv,23795,4872,18923,0,2025-10-01 00:00:00,2025-10-27 05:32:00,True
+weather_report,Weather reports (1-27)10.xlsm,21672,21672,0,0,2025-08-16 19:00:00,2025-10-27 08:00:00,True
+power_report,Power reports (1-15)102025.xls + Power reports (16-27)102025.xls,41936,36954,4982,0,2025-10-01 05:15:00,2025-10-27 08:39:00,True
+energy_report,Energy reports 01102025 - 27102025.xls,634,634,0,0,2025-10-01 00:00:00,2025-10-27 09:00:00,True
