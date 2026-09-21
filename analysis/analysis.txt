@@ -1,0 +1,12 @@
+Quy trình
++ Đọc file
++ Đọc từng APU: stats.loc[stats['System'] == 'APU 1'] (30 ngày)
+quan sát dữ liệu trong 1 ngày
+stats.loc[(stats['System'] == 'APU 1') & (stats['Time Stamp'].str.startswith('2026-01-12'))]
+lỗi: stats_day1[cols_to_plot].resample('D').mean().plot(subplots=True, figsize=(10, 6), grid=True)
+lý do: này xảy ra vì Index (chỉ số dòng) của DataFrame stats_day1 hiện tại đang là RangeIndex 
+(số thứ tự 0, 1, 2...) chứ chưa phải là DatetimeIndex. 
+Hàm .resample('D') của Pandas bắt buộc Index của DataFrame phải ở định dạng thời gian (DatetimeIndex).
+
+Cách khắc phục:
+Xây dự sơ đồ liên kết, sơ đồ quan hệ, thiết kế csdl(model) (CSDL)
