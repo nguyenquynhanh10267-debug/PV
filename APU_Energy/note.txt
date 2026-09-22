@@ -1,0 +1,2 @@
+
+Hàm diff( hiệu giữa hàng hiện tại và hàng trước đó )
